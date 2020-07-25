@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/ic_bggradient">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/bg">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="154dp" app:srcCompat="@drawable/logo" android:id="@+id/imageView2"
+                android:contentDescription="@string/logo"/>
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/linear2">
+
+            <LinearLayout
+                    android:layout_width="309dp"
+                    android:layout_height="275dp"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/nama"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                <EditText
+                        android:id="@+id/isiemail"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/black"
+                        android:ems="10"
+                        android:inputType="textEmailAddress"
+                        android:outlineSpotShadowColor="@color/black"
+                        android:textColor="@color/black" />
+
+                <TextView
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/userpass"
+                        android:textColor="@color/black"
+                        android:textSize="20dp" />
+
+                <EditText
+                        android:id="@+id/isipassword"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/black"
+                        android:ems="10"
+                        android:inputType="textPassword"
+                        android:textColor="@color/black"
+                        android:textColorHint="@color/black" />
+
+                <CheckBox
+                        android:id="@+id/chkSave"
+                        style="@android:style/Widget.Material.CompoundButton.CheckBox"
+                        android:layout_width="209dp"
+                        android:layout_height="50dp"
+                        android:checked="false"
+                        android:text="Save email dan Password"
+                        android:textAllCaps="false"
+                        android:textColor="@color/blacked"
+                        android:textColorHighlight="@color/blue"
+                        android:textColorHint="@color/blacked"
+                        android:textColorLink="@color/browser_actions_text_color"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/isipassword" />
+
+                <TextView
+                        android:id="@+id/lupapas"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="right"
+                        android:text="@string/lupa"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="275dp"
+                    android:layout_height="wrap_content">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <Button
+                            android:id="@+id/loginss"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Masuk"
+                            android:theme="@style/buttonstyle1" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                <TextView
+                        android:text="Belum Punya Akun?"
+                        android:textColor="@color/black"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView3" android:layout_weight="1"/>
+                <TextView
+                        android:text="Daftar Sekarang"
+                        android:textColor="@color/upper"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/daftar" android:layout_weight="1"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:app="http://schemas.android.com/apk/res-auto"
+             android:orientation="vertical"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+        android:background="@color/white">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbaru"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent">
+            <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/mantapu"
+                    app:title=" "
+                    android:layout_height="match_parent"
+                    android:layout_width="296dp">
+                <TextView
+                        android:text="Histori Transaksi"
+                        android:gravity="center"
+                        android:foregroundGravity="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:id="@+id/textView" android:textSize="18sp"
+                        android:textStyle="bold" android:typeface="sans"/>
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+        <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tool"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:background="@color/black"
+                app:tabTextColor="@color/white">
+
+            <com.google.android.material.tabs.TabItem
+                    android:id="@+id/ekoliss"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Selesai" />
+
+            <com.google.android.material.tabs.TabItem
+                    android:id="@+id/recoil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Belum Selesai"
+                    app:tabSelectedTextColor="@color/white" />
+
+            <com.google.android.material.tabs.TabItem
+                    android:id="@+id/ekolis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Riwayat"
+                    app:tabSelectedTextColor="@color/white" />
+        </com.google.android.material.tabs.TabLayout>
+
+        <androidx.viewpager.widget.ViewPager
+                android:id="@+id/pagger"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+</FrameLayout>

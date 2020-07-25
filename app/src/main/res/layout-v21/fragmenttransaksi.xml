@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:ems="http://schemas.android.com/tools"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+            android:id="@+id/semua"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/blue"
+            android:orientation="vertical">
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="43dp"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="21dp"
+                    android:background="@color/white"
+                    android:orientation="vertical"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="85dp"
+                android:background="@color/blue"
+                android:orientation="horizontal">
+
+            <LinearLayout
+                    android:layout_width="97dp"
+                    android:layout_height="75dp"
+                    android:layout_weight="3"
+                    android:background="@color/blue"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/white"
+                        android:orientation="vertical">
+
+                    <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="63dp"
+                            android:layout_height="58dp"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:outlineAmbientShadowColor="@color/blacked"
+                            android:outlineSpotShadowColor="@color/blacked"
+                            android:scaleType="fitXY"
+                            app:srcCompat="@drawable/user_icbar" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/isidua"
+                    android:layout_width="108dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/number1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="7"
+                        android:text="Nama Barang"
+                        android:textColor="@color/blacked" />
+
+                <TextView
+                        android:id="@+id/number2"
+                        android:layout_width="73dp"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:text="Berat"
+                        android:textColor="@color/blacked" />
+
+                <TextView
+                        android:id="@+id/number3"
+                        android:layout_width="116dp"
+                        android:layout_height="wrap_content"
+                        android:ems="8"
+                        android:text="Perkiraan Harga"
+                        android:textColor="@color/blacked" />
+
+                <TextView
+                        android:id="@+id/number7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="5"
+                        android:text="Keterangan"
+                        android:textColor="@color/blacked" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:id="@+id/isisatu"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:orientation="vertical">
+
+                <TextView
+                        android:id="@+id/number4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="11"
+                        android:textColor="@color/blacked" />
+
+                <TextView
+                        android:id="@+id/number5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blacked" />
+
+                <TextView
+                        android:id="@+id/number6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/blacked" />
+
+                <TextView
+                        android:id="@+id/number8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ems="9"
+                        android:textColor="@color/blacked" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:orientation="vertical">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/jenis1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="5"
+                            android:text="Kategori"
+                            android:textColor="@color/blacked" />
+
+                    <TextView
+                            android:id="@+id/kategori1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="6"
+                            android:text="Jenis Barang"
+                            android:textColor="@color/blacked" />
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:textColor="@color/blacked">
+
+                    <TextView
+                            android:id="@+id/kategori2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="5"
+                            android:text="       "
+                            android:textColor="@color/blacked" />
+
+                    <TextView
+                            android:id="@+id/jenis2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:ems="5"
+                            android:text="    "
+                            android:textColor="@color/blacked" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                    android:id="@+id/Dates"
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:ems="5"
+                    android:gravity="right"
+                    android:textColor="@color/blacked" />
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="60dp"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+
+            <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/barjual"
+                    android:theme="@style/buttonstyle2" />
+
+            <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Edit"
+                    android:theme="@style/buttonstyle2" />
+
+            <Button
+                    android:id="@+id/Batal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="Hapus"
+                    android:theme="@style/buttonstyle2" />
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+                android:background="@color/white"
+                android:orientation="vertical"></LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

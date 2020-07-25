@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+        package="zero27zen.com">
+
+    <!-- To access Google+ APIs: -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+
+            android:icon="@mipmap/ic_launcher"
+            android:label="@string/app_name"
+            android:allowBackup="true"
+            android:hardwareAccelerated="false"
+            android:largeHeap="true"
+            android:supportsRtl="true"
+            android:roundIcon="@mipmap/ic_launcher_round"
+            android:theme="@style/AppTheme">
+        <activity
+                android:name=".utama"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar">
+        </activity>
+        <activity
+                android:name=".kantong"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar" >
+        </activity>
+        <activity
+                android:name=".transaksi"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar" >
+        </activity>
+        <activity
+                android:name=".MainActivity"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".new"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".lupapassword"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".Isibiodara"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".plastik"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".kertas"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".besi"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".elektronik"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".Edit"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+        <activity
+                android:name=".Kosong"
+                android:screenOrientation="portrait"
+                android:theme="@style/AppTheme.actionbar"/>
+    </application>
+
+</manifest>

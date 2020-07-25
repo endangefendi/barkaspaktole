@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:background="@color/white">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/editbar"
+                    app:title=" "
+                    android:layout_width="257dp"
+                    android:layout_height="wrap_content">
+
+                <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:foregroundGravity="center"
+                        android:gravity="center"
+                        android:text="Edit Barang"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:typeface="sans" />
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <TextView
+                    android:id="@+id/textView9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Edit Barang "
+                    android:textColor="@color/blacked"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:text="Nama Barang"
+                                android:textColor="@color/browser_actions_text_color" />
+
+                        <EditText
+                                android:id="@+id/barangnamas"
+                                android:layout_width="224dp"
+                                android:layout_height="wrap_content"
+                                android:backgroundTint="@color/black"
+                                android:ems="5"
+                                android:hint="Masukan Nama Barang"
+                                android:inputType="textPersonName"
+                                android:maxLength="20"
+                                android:maxLines="1"
+                                android:outlineSpotShadowColor="@color/blacked"
+                                android:textColor="@color/blacked"
+                                android:textColorHint="@color/blacked" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/textView12"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:text="Kategori Barang"
+                                android:textColor="@color/blacked"
+                                android:textSize="18sp" />
+
+                        <Spinner
+                                android:id="@+id/spinner2s"
+                                android:layout_width="32dp"
+                                android:layout_height="match_parent"
+                                android:backgroundTint="@color/upper"
+                                android:dropDownWidth="wrap_content"
+                                android:outlineAmbientShadowColor="@color/blacked"
+                                android:outlineSpotShadowColor="@color/blue"
+                                android:spinnerMode="dialog" />
+
+                        <TextView
+                                android:id="@+id/kategoriss"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:text="        ss      "
+                                android:textColor="@color/blacked"
+                                android:textSize="18sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="39dp"
+
+                            android:orientation="horizontal">
+
+                        <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="128dp"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:text="Jenis Barang"
+                                android:textColor="@color/blacked"
+                                android:textSize="18sp" />
+
+                        <Spinner
+                                android:id="@+id/spinnersss"
+                                android:layout_width="32dp"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:backgroundTint="@color/upper"
+                                android:outlineAmbientShadowColor="@color/blacked"
+                                android:outlineSpotShadowColor="@color/blue"
+                                android:spinnerMode="dialog" />
+
+                        <TextView
+                                android:id="@+id/jenisz"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_weight="1"
+                                android:text="       ss       "
+                                android:textColor="@color/blacked"
+                                android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:id="@+id/textView5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:text="Berat Barang"
+                                    android:textColor="@color/blacked" />
+
+                            <EditText
+                                    android:id="@+id/beratbarangs"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:backgroundTint="@color/black"
+                                    android:ems="10"
+                                    android:hint="Perkiraan Berat Barang (Kg)"
+                                    android:inputType="number"
+                                    android:maxLength="5"
+                                    android:maxLines="1"
+                                    android:outlineSpotShadowColor="@color/blacked"
+                                    android:textColor="@color/blacked"
+                                    android:textColorHint="@color/blacked" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal">
+
+                            <TextView
+                                    android:id="@+id/textView21"
+                                    android:layout_width="155dp"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:outlineSpotShadowColor="@color/blacked"
+                                    android:text="Perkiraan Harga"
+                                    android:textColor="@color/blacked"
+                                    android:textColorHint="@color/blacked"
+                                    android:textSize="18sp" />
+
+                            <TextView
+                                    android:id="@+id/peetapanharga"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_weight="1"
+                                    android:textColor="@color/blacked"
+                                    android:textSize="14sp" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/textView10"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_weight="1"
+                            android:text="Foto Barang"
+                            android:textColor="@color/blacked"
+                            android:textSize="18sp" />
+
+                    <ImageView
+                            android:id="@+id/imageView7s"
+                            android:layout_width="159dp"
+                            android:layout_height="104dp"
+                            android:layout_gravity="center_horizontal"
+                            android:scaleType="centerInside"
+                            app:srcCompat="@mipmap/foto" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                    <TextView
+                            android:id="@+id/textView20"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Deskripsi Barang"
+                            android:textColor="@color/blacked"
+                            android:textSize="16sp" />
+
+                    <EditText
+                            android:id="@+id/deskripsibarangs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:backgroundTint="@color/black"
+                            android:ems="10"
+                            android:hint="Deskripsikan Barang Yang akan di jual"
+                            android:inputType="textMultiLine"
+                            android:maxLength="50"
+                            android:maxLines="3"
+                            android:outlineSpotShadowColor="@color/blacked"
+                            android:textColor="@color/blacked"
+                            android:textColorHint="@color/blacked" />
+
+                    <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:orientation="horizontal">
+
+                        <Button
+                                android:id="@+id/Editsave"
+                                app:labelVisibilityMode="labeled"
+                                app:menu="@menu/validasi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_weight="1"
+                                android:text="Simpan Data"
+                                android:theme="@style/buttonstyle1" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

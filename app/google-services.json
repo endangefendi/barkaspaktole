@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "315665436244",
+    "firebase_url": "https://barkas-paktole.firebaseio.com",
+    "project_id": "barkas-paktole",
+    "storage_bucket": "barkas-paktole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:315665436244:android:1f065295085d0051",
+        "android_client_info": {
+          "package_name": "zero27zen.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "315665436244-u9288pjr3e6jvgo6kk2rmhi2891mqa6q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "zero27zen.com",
+            "certificate_hash": "6c25f028ee83a47afbfcea0a2ef918a9563d714a"
+          }
+        },
+        {
+          "client_id": "315665436244-688m57h1ie3icup0toifc9ohpikqt6ds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcB6ZyOluSsynvpjl_iV88ceD9jNh7BFg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "315665436244-688m57h1ie3icup0toifc9ohpikqt6ds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

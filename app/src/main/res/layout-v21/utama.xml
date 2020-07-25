@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="113dp"
+                android:scaleType="centerInside"
+                android:background="@color/cube"
+                app:srcCompat="@drawable/illustrasi_" />
+        <TextView
+                android:text=" Kategori Harga Jual :"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/textView4" android:textSize="18sp"
+                android:typeface="sans"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="141dp">
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:theme="@style/buttonstyle2"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/plastic"
+                    android:id="@+id/plas"
+                    android:layout_weight="1"/>
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:theme="@style/buttonstyle2"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/koran"
+                    android:id="@+id/ker"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="25dp" >
+
+        <TextView
+                android:textColor="@color/blacked"
+                android:gravity="center"
+                android:textStyle="normal"
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:text="Plastik Bekas" />
+
+        <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:textColor="@color/blacked"
+                android:textSize="15sp"
+                android:textStyle="normal"
+                android:text="Kertas Bekas" />
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="141dp">
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:theme="@style/buttonstyle2"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/elektronik"
+                    android:id="@+id/ele" android:layout_weight="1"/>
+            <ImageButton
+                    android:layout_width="wrap_content"
+                    android:theme="@style/buttonstyle2"
+                    android:layout_height="match_parent" app:srcCompat="@drawable/logam"
+                    android:id="@+id/bes"
+                    android:layout_weight="1"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="25dp" >
+
+            <TextView
+                    android:textColor="@color/blacked"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:id="@+id/textView16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="15sp"
+                    android:text="Elektronik Bekas" />
+
+            <TextView
+                    android:id="@+id/textView17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:textColor="@color/blacked"
+                    android:textSize="15sp"
+                    android:textStyle="normal"
+                    android:text="Besi Bekas" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>
