@@ -44,6 +44,8 @@ class besi : AppCompatActivity() {
 
                 mAdapter = NoteRecyclerViewAdapter(notesList, applicationContext)
                kemunculan.adapter = mAdapter
+
+                //ini hanya saya rubah
             })
 
         setSupportActionBar(findViewById(R.id.ekolis))
